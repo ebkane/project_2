@@ -15,3 +15,8 @@ body {
 .col-md-6 {
     padding: 2%;
 }
+
+.jumbotron {
+    background-color: #fff;
+    color: #000;
+}
