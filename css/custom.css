@@ -1,2 +1,17 @@
 /* Custom CSS */
 
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Roboto Condensed", serif;
+}
+
+.page-header {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+}
+
+.col-md-6 {
+    padding: 2%;
+}
