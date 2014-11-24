@@ -20,3 +20,10 @@ body {
     background-color: #fff;
     color: #000;
 }
+
+form {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
