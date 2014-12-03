@@ -43,6 +43,10 @@ a:visited {
     color: #8db073;
 }
 
+.page-header {
+    border:none;
+}
+
 .gradient {
     
     /* can be treated like a fallback */
