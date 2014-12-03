@@ -1,7 +1,6 @@
 /* Custom CSS */
 
 body {
-    background-color: #fff;
     color: #000;
     font-family: "Roboto Condensed", serif;
 }
@@ -27,3 +26,15 @@ form {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+.gradient {
+    
+    /* can be treated like a fallback */
+    background-color: white;
+    
+    /* will be "on top", if browser supports it */
+    background-image: linear-gradient(black, white);
+    
+    /* these will reset other properties, like background-position, but it does know what you mean */
+    background: red;
+    background: linear-gradient(black, white);
