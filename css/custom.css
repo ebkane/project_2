@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 small, h2 small, h3 sma
     color: #000;
 }
 
+.navbar, .navbar-default, .navbar-fixed-top, navbar, navbar-default, navbar-fixed-top {
+    background-color: #555;
+    border-bottom: none;
+}
+
 .page-header {
     padding-left: 5%;
     padding-right: 5%;
@@ -32,19 +37,50 @@ form {
 }
 
 a:hover {
-    color: #8db173;
+    color: #444;
 }
 
 a:link {
-    color: #8dba73;
+    color: #555;
 }
 
 a:visited {
-    color: #8db073;
+    color: #666;
 }
 
 .page-header {
     border:none;
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #8dab73;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #8dab93;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.container, .guide-container, container, guide-container {
+    width: 50%;
+    padding-left: 25px;
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px #888;
 }
 
 .gradient {
