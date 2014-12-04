@@ -21,11 +21,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 small, h2 small, h3 sma
 }
 
 .col-md-3 {
-    padding: 2%;
+    margin: none;
 }
 
 .jumbotron {
-    background-color: #fff;
+    background-color: white;
     color: #000;
 }
 
@@ -84,7 +84,6 @@ a:visited {
 }
 
 .gradient {
-    
     /* can be treated like a fallback */
     background-color: white;
     
