@@ -93,8 +93,8 @@ a:visited {
     box-shadow: 5px 5px 5px #888;
 }
 
-.large-container, large-container {
-    width: 75%;
+.container-side, container-side {
+    width: 30%;
     padding-left: 25px;
     background-color: #ddd;
     box-shadow: 5px 5px 5px #888;
