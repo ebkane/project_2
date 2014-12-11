@@ -9,9 +9,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 small, h2 small, h3 sma
     color: #000;
 }
 
-.navbar, .navbar-default, .navbar-fixed-top, navbar, navbar-default, navbar-fixed-top {
+.navbar, .navbar-default, .navbar-fixed-top, .navbar-header, navbar, navbar-default, navbar-fixed-top, navbar-header {
     background-color: #222;
     border-bottom: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ddd;
 }
 
 .page-header {
@@ -20,8 +24,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 small, h2 small, h3 sma
     padding-top: 0%;
 }
 
+img {
+    margin-right: 15px;
+}
+
 .col-md-3 {
-    margin: none;
+    margin: 5px;
+    padding: 5px;
 }
 
 .jumbotron {
@@ -37,24 +46,19 @@ form {
 }
 
 a:hover {
-    color: #444;
+    color: #888;
 }
 
 a:link {
-    color: #555;
+    color: #666;
 }
 
 a:visited {
-    color: #666;
+    color: #777;
 }
 
 .page-header {
     border:none;
-}
-
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
 }
 
 .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -83,6 +87,13 @@ a:visited {
 
 .guide-container, guide-container {
     width: 50%;
+    padding-left: 25px;
+    background-color: #ddd;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.large-container, large-container {
+    width: 75%;
     padding-left: 25px;
     background-color: #ddd;
     box-shadow: 5px 5px 5px #888;
