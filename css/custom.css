@@ -52,6 +52,11 @@ a:visited {
     border:none;
 }
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
 .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
@@ -83,14 +88,15 @@ a:visited {
     box-shadow: 5px 5px 5px #888;
 }
 
+
 .gradient {
     /* can be treated like a fallback */
-    background-color: white;
+    background-color: transparent;
     
     /* will be "on top", if browser supports it */
     background-image: linear-gradient(#888, white);
     
     /* these will reset other properties, like background-position, but it does know what you mean */
-    background: red;
+    background: transparent;
     background: linear-gradient(#888, white);
 }
